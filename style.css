@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/skymagma-img.jpg");
+  height: fit-content;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+.icons {
+  display: flex;
+  width: inherit;
+  height: fit-content;
+  margin-top: 8vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icons a {
+  padding: 20px;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+  border: 3px solid white;
+}
+.icons a:hover {
+  background-color: black;
+}
+.fa-instagram {
+  color: whitesmoke;
+}
+.fa-instagram:hover {
+  color: white;
+}
+.fa-twitter {
+  color: rgb(29, 161, 242);
+}
+.fa-spotify {
+  color: rgb(30, 215, 96);
+}
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-apple {
+  color: rgb(249, 246, 239);
+}
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+  width: 100vw;
+  margin-top: 20vh;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  color: darkslategray;
+  font-size: 24px;
+  box-shadow: 10px 10px 8px black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.card img {
+  height: 100px;
+  width: auto;
+  border-radius: 50px;
+}
+.names {
+  align-self: center;
+  margin-left: 30px;
+}
